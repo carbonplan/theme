@@ -1,0 +1,25 @@
+{
+  "name": "@carbonplan/theme",
+  "version": "1.0.0",
+  "description": "theme for styling our websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carbonplan/theme.git"
+  },
+  "keywords": [
+    "theme-ui",
+    "carbonplan",
+    "climate",
+    "carbon"
+  ],
+  "author": "freeman-lab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carbonplan/theme/issues"
+  },
+  "homepage": "https://github.com/carbonplan/theme#readme"
+}
