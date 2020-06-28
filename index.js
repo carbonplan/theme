@@ -1,4 +1,4 @@
-export const theme = {
+module.exports = {
   space: [0, 4, 8, 16, 32, 48, 64, 128, 256, 512],
   fonts: {
     body:
@@ -146,5 +146,3 @@ export const theme = {
     injection: 'grey',
   },
 }
-
-export default theme
