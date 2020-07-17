@@ -96,7 +96,7 @@ module.exports = {
       borderColor: 'muted',
     },
     p: {
-      fontSize: [2],
+      fontSize: [3],
       fontFamily: 'body',
       fontWeight: 'body',
       letterSpacing: 'body',
