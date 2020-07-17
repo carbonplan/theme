@@ -3,6 +3,7 @@
 [![Build](https://github.com/carbonplan/theme/workflows/CI/badge.svg)](https://github.com/carbonplan/theme/actions)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=carbonplan/theme)](https://dependabot.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/carbonplan/theme/blob/master/LICENSE)
+[![npm version](https://badge.fury.io/js/%40carbonplan%2Ftheme.svg)](https://badge.fury.io/js/%40carbonplan%2Ftheme)
 
 Theme for styling our websites using `theme-ui`.
 
