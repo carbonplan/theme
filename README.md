@@ -11,12 +11,14 @@
 ![Build Status][]
 ![dependabot][]
 ![MIT License][]
+![NPM Version][]
 
 [github]: https://github.com/carbonplan/theme
 [github-badge]: https://flat.badgen.net/badge/-/github?icon=github&label
 [build status]: https://flat.badgen.net/github/checks/carbonplan/theme
 [dependabot]: https://flat.badgen.net/dependabot/carbonplan/theme?icon=dependabot
 [mit license]: https://flat.badgen.net/badge/license/MIT/blue
+[npm version]: https://flat.badgen.net/npm/v/@carbonplan/theme
 
 Theme for styling our websites using `theme-ui`.
 
