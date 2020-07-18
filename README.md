@@ -5,7 +5,7 @@
 
 # carbonplan / theme
 
-**lightweight Theme-UI configuration for CarbonPlan sites**
+**lightweight Theme-UI configuration for CarbonPlan websites**
 
 [![GitHub][github-badge]][github]
 ![Build Status][]
@@ -20,7 +20,7 @@
 [mit license]: https://flat.badgen.net/badge/license/MIT/blue
 [npm version]: https://flat.badgen.net/npm/v/@carbonplan/theme
 
-Theme for styling our websites using `theme-ui`.
+## usage
 
 To use, import into your package
 
