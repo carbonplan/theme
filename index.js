@@ -15,6 +15,7 @@ module.exports = {
     mono: '0.07em',
     faux: '0.05em',
     heading: '-0.015em',
+    smallcaps: '0.07em',
   },
   fontWeights: {
     body: 400,
