@@ -70,20 +70,10 @@ module.exports = {
   },
   text: {
     default: {
-      fontSize: [3],
-      color: 'text',
       fontFamily: 'body',
       lineHeight: 'body',
       fontWeight: 'body',
       letterSpacing: 'body',
-    },
-    heading: {
-      fontSize: [5],
-      fontFamily: 'heading',
-      fontWeight: 'heading',
-      lineHeight: 'heading',
-      mt: [4, 5, 5],
-      mb: [3, 4, 4],
     },
   },
   styles: {
