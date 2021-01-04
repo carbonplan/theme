@@ -25,6 +25,9 @@ module.exports = {
   lineHeights: {
     body: 1.35,
     heading: 1.05,
+    h1: 1.05,
+    h2: 1.1,
+    h3: 1.25
   },
   colors: {
     text: '#ebebec',
@@ -113,7 +116,7 @@ module.exports = {
       fontFamily: 'heading',
       letterSpacing: 'heading',
       fontWeight: 'heading',
-      lineHeight: 'heading',
+      lineHeight: 'h1',
       mt: [5, 6, 6],
       mb: [4, 5, 5],
     },
@@ -121,15 +124,15 @@ module.exports = {
       fontSize: [5],
       fontFamily: 'heading',
       fontWeight: 'heading',
-      lineHeight: 'heading',
+      lineHeight: 'h2',
       mt: [4, 5, 5],
       mb: [3, 4, 4],
     },
     h3: {
       fontSize: [4],
-      fontFamily: 'heading',
-      fontWeight: 'heading',
-      lineHeight: 'heading',
+      fontFamily: 'body',
+      fontWeight: 'body',
+      lineHeight: 'h3',
       mt: [3, 4, 4],
       mb: [2, 3, 3],
     },
