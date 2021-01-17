@@ -27,7 +27,7 @@ module.exports = {
     heading: 1.05,
     h1: 1.05,
     h2: 1.1,
-    h3: 1.2
+    h3: 1.2,
   },
   colors: {
     text: '#ebebec',
@@ -109,7 +109,7 @@ module.exports = {
       fontFamily: 'body',
       fontWeight: 'body',
       letterSpacing: 'body',
-      my: ['1em']
+      my: ['1em'],
     },
     h1: {
       fontSize: [6, 7, 7],
