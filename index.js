@@ -47,10 +47,10 @@ module.exports = {
     modes: {
       light: {
         text: '#1b1e23',
-        background: '#ebebec',
+        background: '#FFFFFF',
         primary: '#1b1e23',
         secondary: '#808080',
-        muted: '#b0afb1',
+        muted: '#b9b9bb',
         red: '#f07071',
         orange: '#ea9755',
         yellow: '#d4c05e',
@@ -65,9 +65,17 @@ module.exports = {
   },
   layout: {
     container: {
+      px: [3, 4, 4],
       maxWidth: '1150px',
       '@media only screen and (min-width: 100em)': {
         maxWidth: '1500px',
+      },
+    },
+    wide: {
+      px: [3, '24px', '24px'],
+      '@media only screen and (min-width: 100em)': {
+        maxWidth: '1500px',
+        px: [4],
       },
     },
   },
