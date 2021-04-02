@@ -138,8 +138,6 @@ module.exports = {
       mb: [3, 4, 4],
     },
   },
-  breakpoints: [
-    '40em', '64em', '102em',
-  ],
+  breakpoints: ['40em', '64em', '102em'],
   useColorSchemeMediaQuery: false,
 }
