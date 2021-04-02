@@ -1,5 +1,5 @@
 module.exports = {
-  space: [0, 4, 8, 16, 32, 48, 64, 128, 256, 512],
+  space: [0, 4, 8, 16, 24, 32, 48, 64, 96, 128, 256, 512],
   fonts: {
     body:
       'relative-book-pro, Roboto, system-ui, -apple-system, BlinkMacSystemFont',
@@ -9,7 +9,7 @@ module.exports = {
       'relative-medium-pro, Roboto, system-ui, -apple-system, BlinkMacSystemFont',
     mono: 'relative-mono-11-pitch-pro, Menlo, monospace',
   },
-  fontSizes: [12, 14, 16, 18, 24, 34, 48, 64, 96],
+  fontSizes: [12, 14, 16, 18, 24, 34, 48, 64, 80, 96, 128],
   letterSpacings: {
     body: '0.01em',
     mono: '0.07em',
@@ -65,26 +65,18 @@ module.exports = {
   },
   layout: {
     container: {
-      px: [3, 4, 4],
-      maxWidth: '1150px',
-      '@media only screen and (min-width: 100em)': {
-        maxWidth: '1500px',
-      },
-    },
-    wide: {
-      px: [3, '24px', '24px'],
-      '@media only screen and (min-width: 100em)': {
-        maxWidth: '1500px',
-        px: [4],
-      },
+      px: [3, 4, 5, 6],
+      maxWidth: '1920px',
     },
   },
   text: {
-    default: {
+    paragraph: {
+      fontSize: [3],
       fontFamily: 'body',
       lineHeight: 'body',
       fontWeight: 'body',
       letterSpacing: 'body',
+      my: ['1em'],
     },
   },
   styles: {
@@ -113,36 +105,41 @@ module.exports = {
       borderColor: 'muted',
     },
     p: {
-      fontSize: [3],
+      fontSize: [3, 3, 3, 4],
+      lineHeight: 'body',
       fontFamily: 'body',
       fontWeight: 'body',
       letterSpacing: 'body',
       my: ['1em'],
     },
     h1: {
-      fontSize: [6, 7, 7],
+      fontSize: [6, 6, 7, 8],
       fontFamily: 'heading',
       letterSpacing: 'heading',
       fontWeight: 'heading',
       lineHeight: 'h1',
-      mt: [5, 6, 6],
-      mb: [4, 5, 5],
+      mt: [5, 7, 7],
+      mb: [5, 6, 6],
     },
     h2: {
-      fontSize: [5],
+      fontSize: [5, 5, 5, 6],
       fontFamily: 'heading',
       fontWeight: 'heading',
       lineHeight: 'h2',
-      mt: [4, 5, 5],
-      mb: [3, 4, 4],
+      mt: [5, 6, 6],
+      mb: [4, 5, 5],
     },
     h3: {
-      fontSize: [4],
+      fontSize: [4, 4, 4, 5],
       fontFamily: 'heading',
       fontWeight: 'heading',
       lineHeight: 'h3',
-      mt: [3, 4, 4],
-      mb: [2, 3, 3],
+      mt: [4, 5, 5],
+      mb: [3, 4, 4],
     },
   },
+  breakpoints: [
+    '40em', '64em', '102em',
+  ],
+  useColorSchemeMediaQuery: false,
 }
