@@ -90,11 +90,13 @@ module.exports = {
     },
     a: {
       color: 'text',
-      '&:active': {
-        color: 'text',
-      },
-      '&:hover': {
-        color: 'secondary',
+      '@media (hover: hover) and (pointer: fine)': {
+        '&:active': {
+          color: 'text',
+        },
+        '&:hover': {
+          color: 'secondary',
+        },
       },
       textDecoration: 'underline',
       cursor: 'pointer',
