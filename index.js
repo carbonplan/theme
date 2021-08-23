@@ -68,7 +68,6 @@ module.exports = {
   layout: {
     container: {
       px: [3, 4, 5, 6],
-      maxWidth: '1920px',
     },
   },
   text: {
