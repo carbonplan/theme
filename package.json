@@ -1,6 +1,6 @@
 {
   "name": "@carbonplan/theme",
-  "version": "7.0.0-alpha.0",
+  "version": "7.0.0",
   "description": "theme for styling our websites",
   "main": "index.js",
   "scripts": {
