@@ -219,7 +219,7 @@ module.exports = {
         color: 'secondary',
       },
     },
-    inlineCode: {
+    code: {
       px: [1],
       pb: ['3px'],
       pt: ['1px'],
