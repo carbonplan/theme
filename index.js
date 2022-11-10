@@ -1,10 +1,8 @@
 module.exports = {
   space: [0, 4, 8, 16, 24, 32, 48, 64, 96, 128, 172, 256, 512],
   fonts: {
-    body:
-      'relative-book-pro, Roboto, system-ui, -apple-system, BlinkMacSystemFont',
-    faux:
-      'relative-faux-book-pro, Roboto, system-ui, -apple-system, BlinkMacSystemFont',
+    body: 'relative-book-pro, Roboto, system-ui, -apple-system, BlinkMacSystemFont',
+    faux: 'relative-faux-book-pro, Roboto, system-ui, -apple-system, BlinkMacSystemFont',
     heading:
       'relative-medium-pro, Roboto, system-ui, -apple-system, BlinkMacSystemFont',
     mono: 'relative-mono-11-pitch-pro, Menlo, monospace',
@@ -219,7 +217,7 @@ module.exports = {
         color: 'secondary',
       },
     },
-    inlineCode: {
+    code: {
       px: [1],
       pb: ['3px'],
       pt: ['1px'],

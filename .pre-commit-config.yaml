@@ -1,8 +1,11 @@
 repos:
-  - repo: https://github.com/prettier/prettier
-    rev: '2.0.5'
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: 'v2.6.2'
     hooks:
       - id: prettier
+        additional_dependencies:
+          - 'prettier@2.5.1'
+          - '@carbonplan/prettier@1.2.0'
         files: "\\.(\
           css|less|scss\
           |graphql|gql\
@@ -13,10 +16,13 @@ repos:
           |vue\
           |yaml|yml\
           )$"
-  - repo: https://github.com/prettier/prettier
-    rev: '2.0.5'
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: 'v2.6.2'
     hooks:
       - id: prettier
+        additional_dependencies:
+          - 'prettier@2.5.1'
+          - '@carbonplan/prettier@1.2.0'
         name: prettier-markdown
         entry: prettier --write --parser mdx
         files: "\\.(\

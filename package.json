@@ -1,6 +1,6 @@
 {
   "name": "@carbonplan/theme",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "description": "theme for styling our websites",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,10 @@
   "bugs": {
     "url": "https://github.com/carbonplan/theme/issues"
   },
+  "prettier": "@carbonplan/prettier",
   "devDependencies": {
-    "prettier": "^2.2.1"
+    "@carbonplan/prettier": "^1.2.0",
+    "prettier": "2.3.0"
   },
   "homepage": "https://github.com/carbonplan/theme#readme"
 }
