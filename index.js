@@ -222,7 +222,7 @@ module.exports = {
       pb: ['3px'],
       pt: ['1px'],
       mx: ['1px'],
-      fontSize: [1, 1, 1, 2],
+      fontSize: [1, 1, 1, 3],
       fontFamily: 'mono',
       letterSpacing: 'mono',
       bg: 'hinted',
